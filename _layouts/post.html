@@ -41,9 +41,9 @@
         {% if page.share %}{% include social-share.html %}{% endif %}
         {% if page.ads != true %}{% include ad-sidebar.html %}<!-- /.google-ads -->{% endif %}
       </footer>
-     {% include related-post.html %}
       <div class="entry-content">
         {{ content }}
+        {% include related-post.html %}
         {% if site.owner.disqus-shortname and page.comments or site.comments %}
           <div id="disqus_thread"></div><!-- /#disqus_thread -->
           {% include disqus-comments.html %}
