@@ -46,10 +46,10 @@ owner:
   avatar: michael-rose-photo.jpg
   email: aktipscom@gmail.com
   disqus-shortname: adminperkantoran
-  twitter: @aktips
+  twitter: aktips
   facebook: 
   linkedin:
-  instagram: @aktips
+  instagram: aktips
   flickr:
   tumblr: 
   pinterest:
@@ -60,9 +60,3 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-
-# Footer Links
-footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
