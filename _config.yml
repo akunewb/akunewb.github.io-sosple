@@ -9,7 +9,6 @@ locale: id_ID
 description: tipsrandom.eu.org • Materi Perkantoran • Seputar perkantoran • Teknik Jurusan Perkantoran • Otomasi Perkantoran
 logo: site-logo.png
 url: https://www.tipsrandom.eu.org
-date_format: "%B %-d, %Y"
 read_time: true # reading time estimates, e.g. true
 words_per_minute: # 200
 # Jekyll configuration
@@ -82,17 +81,6 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  
-  # Site Author
-author:
-  name:
-  picture:
-  email:
-  twitter:
-  links:
-    - title:
-      url:
-      icon:
 
 # Footer Links
 footer_links:
