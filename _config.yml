@@ -1,3 +1,7 @@
+theme: jekyll-theme-so-simple
+# remote_theme: mmistakes/so-simple-theme
+skin: "/assets/css/skins/default.css"
+
 # Site wide configuration
 
 title: Aku Newb | Seputar Perkantoran 
@@ -5,7 +9,9 @@ locale: id_ID
 description: tipsrandom.eu.org • Materi Perkantoran • Seputar perkantoran • Teknik Jurusan Perkantoran • Otomasi Perkantoran
 logo: site-logo.png
 url: https://www.tipsrandom.eu.org
-
+date_format: "%B %-d, %Y"
+read_time: true # reading time estimates, e.g. true
+words_per_minute: # 200
 # Jekyll configuration
 
 permalink:   /:categories/:title/
@@ -32,18 +38,40 @@ mathjax: true
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+    
 comments: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+# Front Matter Defaults
+defaults:
+  # Posts defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      share: true
 
 # Site owner
 owner:
   name: perkantoran
   avatar: michael-rose-photo.jpg
-  email: 
+  email: aktipscom@gmail.com
   disqus-shortname: adminperkantoran
-  twitter: 
+  twitter: @aktips
   facebook: 
   linkedin:
-  instagram:
+  instagram: @aktips
   flickr:
   tumblr: 
   pinterest:
@@ -54,3 +82,20 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
+  
+  # Site Author
+author:
+  name:
+  picture:
+  email:
+  twitter:
+  links:
+    - title:
+      url:
+      icon:
+
+# Footer Links
+footer_links:
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
