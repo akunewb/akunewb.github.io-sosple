@@ -10,7 +10,9 @@ read_time: true
 words_per_minute: 200
 
 # Jekyll configuration
-
+# Liquid
+liquid:
+  error_mode: strict
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: rouge
@@ -63,3 +65,13 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
+# Site Author
+author:
+  name: tipsrandom
+  picture:
+  email: tipsrandomeuorg@gmail.com
+  twitter: aktips
+  links:
+    - title:
+      url:
+      icon:
