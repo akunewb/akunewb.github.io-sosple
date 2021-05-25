@@ -5,8 +5,8 @@ locale: id_ID
 description: tipsrandom.eu.org • Materi Perkantoran • Seputar perkantoran • Teknik Jurusan Perkantoran • Otomasi Perkantoran
 logo: site-logo.png
 url: https://www.tipsrandom.eu.org
-read_time: true # reading time estimates, e.g. true
-words_per_minute: # 200
+read_time: true
+words_per_minute: 200
 # Jekyll configuration
 
 permalink:   /:categories/:title/
@@ -46,16 +46,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
-
-# Front Matter Defaults
-defaults:
-  # Posts defaults
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      share: true
 
 # Site owner
 owner:
