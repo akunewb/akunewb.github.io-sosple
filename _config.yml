@@ -6,8 +6,8 @@ description: tipsrandom.eu.org • Materi Perkantoran • Seputar perkantoran �
 logo: site-logo.png
 url: https://www.tipsrandom.eu.org
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
-words_per_minute: # 200
+read_time: true
+words_per_minute: 200
 
 # Jekyll configuration
 
